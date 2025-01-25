@@ -17,6 +17,7 @@
     },
     "require-dev": {
         "phpunit/phpunit": "~5 || ~7",
+        "setasign/tfpdf": "^1.33",
         "setasign/fpdf": "^1.8"
     },
     "autoload": {

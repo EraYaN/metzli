@@ -20,7 +20,7 @@ namespace Metzli\Renderer;
 
 use Metzli\Encoder\AztecCode;
 
-class FpdfRenderer implements RendererInterface
+class tFpdfRenderer implements RendererInterface
 {
     private $pdf;
     private $x;
@@ -29,7 +29,7 @@ class FpdfRenderer implements RendererInterface
     private $fgColor;
     private $bgColor;
 
-    public function __construct(\FPDF $pdf, $x, $y, $size, $fgColor = array(0, 0, 0), $bgColor = null)
+    public function __construct(\tFPDF $pdf, $x, $y, $size, $fgColor = array(0, 0, 0), $bgColor = null)
     {
         $this->pdf = $pdf;
         $this->x = $x;
